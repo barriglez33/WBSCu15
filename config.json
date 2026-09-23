@@ -1,0 +1,633 @@
+{
+  "project_name": "WBSC U-15 World Cup 2026",
+  "keywords": [
+    {
+      "id": 1,
+      "keyword": "WBSC U-15 Baseball World Cup",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 2,
+      "keyword": "U15 Baseball World Cup 2026",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 3,
+      "keyword": "Mundial de Beisbol Sub-15",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 4,
+      "keyword": "Copa Mundial de Béisbol Sub-15",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 5,
+      "keyword": "Parque Kukulcán Álamo",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 6,
+      "keyword": "Estadio Beto Ávila Cancún",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 7,
+      "keyword": "Mérida Yucatán Béisbol",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 8,
+      "keyword": "Cancún Quintana Roo WBSC",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 9,
+      "keyword": "USA Baseball U-15 National Team",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 10,
+      "keyword": "Selección Mexicana de Beisbol Sub-15",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 11,
+      "keyword": "Samurai Japan U-15",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 12,
+      "keyword": "Cuba Béisbol Sub-15",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 13,
+      "keyword": "Chinese Taipei U-15 Baseball",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 14,
+      "keyword": "Team Venezuela Sub-15",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 15,
+      "keyword": "WBSC+",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 16,
+      "keyword": "GameTime Sport",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 17,
+      "keyword": "U15 Baseball results",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 18,
+      "keyword": "Super Round U15 World Cup",
+      "category": "Tournament / Teams / Venues",
+      "batch": 1
+    },
+    {
+      "id": 19,
+      "keyword": "Lathan Boddie",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 20,
+      "keyword": "Nate Handley-White",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 21,
+      "keyword": "Mark Kimbrell",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 22,
+      "keyword": "Jackson McAneeley",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 23,
+      "keyword": "Michael Ohman",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 24,
+      "keyword": "Noah Osterman",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 25,
+      "keyword": "Braylon Rogers",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 26,
+      "keyword": "Bryant Ju",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 27,
+      "keyword": "Jacob Reyes",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 28,
+      "keyword": "Chris Worrell Jr.",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 29,
+      "keyword": "Jaxxon Hanen",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 30,
+      "keyword": "Paris Head",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 31,
+      "keyword": "Paxton Scoggin",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 32,
+      "keyword": "Brandon Sweeney",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 33,
+      "keyword": "Noah Vrzal",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 34,
+      "keyword": "Greyson Wuis",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 35,
+      "keyword": "Mattias Di Maggio",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 36,
+      "keyword": "Tyler Early",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 37,
+      "keyword": "Raylen Hunter",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 38,
+      "keyword": "Calvin Madenspacher",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 39,
+      "keyword": "Adolfo Alcoser",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 40,
+      "keyword": "Amaru Armas",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 41,
+      "keyword": "Ian Centeno",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 42,
+      "keyword": "Jonatan Montano",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 43,
+      "keyword": "José Carlos Jimenez",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 44,
+      "keyword": "Juan Pablo Rayo",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 45,
+      "keyword": "Larrin Herman",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 46,
+      "keyword": "Nathan Sinclair",
+      "category": "Players",
+      "batch": 1
+    },
+    {
+      "id": 47,
+      "keyword": "Eliel Romero",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 48,
+      "keyword": "Juan Pablo Hernández",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 49,
+      "keyword": "Andrés Sotelo",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 50,
+      "keyword": "Diego Vanegas",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 51,
+      "keyword": "Jensky Rocha",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 52,
+      "keyword": "Jordan Walters",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 53,
+      "keyword": "Edrian Solorzano",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 54,
+      "keyword": "Gabriel Mejía",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 55,
+      "keyword": "Helyan Muñoz",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 56,
+      "keyword": "Juan Ramón Berrios",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 57,
+      "keyword": "Yurán Sánchez",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 58,
+      "keyword": "Nestor García",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 59,
+      "keyword": "Raylin Cabrera",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 60,
+      "keyword": "Alan Félix",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 61,
+      "keyword": "Luis Ramos",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 62,
+      "keyword": "Luís Ogando",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 63,
+      "keyword": "Esmailin Paulino",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 64,
+      "keyword": "Airam Burgos",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 65,
+      "keyword": "Milfree Figueroa",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 66,
+      "keyword": "Brandon Baéz",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 67,
+      "keyword": "Axel Heredia",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 68,
+      "keyword": "Ransiel Herrera",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 69,
+      "keyword": "Yeiden Herrera",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 70,
+      "keyword": "Carlos Marrero",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 71,
+      "keyword": "Norky Sánchez",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 72,
+      "keyword": "Ángel Montás",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 73,
+      "keyword": "Ángel García",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 74,
+      "keyword": "Hiddekel Jhonson",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 75,
+      "keyword": "Ángel Peralta",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 76,
+      "keyword": "Yoyo Tejeda",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 77,
+      "keyword": "Welington Castillo",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 78,
+      "keyword": "Josué Collado",
+      "category": "Players",
+      "batch": 2
+    },
+    {
+      "id": 79,
+      "keyword": "#U15WorldCup",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 80,
+      "keyword": "#WBSC",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 81,
+      "keyword": "#BaseballWorldCup",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 82,
+      "keyword": "#Yucatán2026",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 83,
+      "keyword": "#Mérida",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 84,
+      "keyword": "#Cancún",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 85,
+      "keyword": "#USABsub15",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 86,
+      "keyword": "#MéxicoSub15",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 87,
+      "keyword": "#SamuraiJapan",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 88,
+      "keyword": "#TeamUSA",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 89,
+      "keyword": "#PorTuSelección",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 90,
+      "keyword": "#GameTime",
+      "category": "Hashtags",
+      "batch": 2
+    },
+    {
+      "id": 91,
+      "keyword": "#Baseball",
+      "category": "Hashtags",
+      "batch": 2
+    }
+  ],
+  "settings": {
+    "max_age_hours": 2,
+    "gdelt_results_per_keyword": 10,
+    "google_results_per_edition": 4,
+    "minimum_body_characters": 250,
+    "max_stored_articles": 3500,
+    "max_feed_items": 300,
+    "google_decode_interval_seconds": 0.05,
+    "old_translation_repairs_per_run": 10,
+    "request_timeout_seconds": 25
+  },
+  "google_news_editions": [
+    {
+      "label": "US English",
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "label": "México Español",
+      "hl": "es-419",
+      "gl": "MX",
+      "ceid": "MX:es-419"
+    },
+    {
+      "label": "Japan Japanese",
+      "hl": "ja",
+      "gl": "JP",
+      "ceid": "JP:ja"
+    },
+    {
+      "label": "Taiwan Traditional Chinese",
+      "hl": "zh-TW",
+      "gl": "TW",
+      "ceid": "TW:zh-Hant"
+    }
+  ],
+  "translation": {
+    "enabled": true,
+    "target_language": "es",
+    "target_language_label": "Español",
+    "chunk_size": 2200,
+    "max_retries": 2,
+    "retry_delay_seconds": 1
+  },
+  "deduplication": {
+    "max_hours_apart": 48,
+    "title_similarity_threshold": 0.76,
+    "title_token_overlap_threshold": 0.62,
+    "body_lead_similarity_threshold": 0.72,
+    "body_lead_characters": 1600
+  },
+  "event_context_terms": [
+    "wbsc",
+    "u-15",
+    "u15",
+    "sub-15",
+    "sub 15",
+    "baseball world cup",
+    "mundial de beisbol",
+    "mundial de béisbol",
+    "world cup",
+    "merida",
+    "mérida",
+    "yucatan",
+    "yucatán",
+    "cancun",
+    "cancún",
+    "kukulcan",
+    "kukulcán",
+    "beto avila",
+    "beto ávila",
+    "usa baseball",
+    "samurai japan",
+    "chinese taipei",
+    "team venezuela"
+  ],
+  "feed": {
+    "title": "WBSC U-15 World Cup 2026 News",
+    "description": "Noticias del WBSC U-15 Baseball World Cup 2026, equipos, sedes, jugadores, resultados y hashtags relacionados.",
+    "site_url": "https://example.github.io/wbsc-u15-world-cup-2026/"
+  }
+}

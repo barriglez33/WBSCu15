@@ -1,0 +1,6 @@
+feedparser>=6.0.11,<7
+trafilatura>=2.0,<3
+googlenewsdecoder>=0.1.7,<0.2
+requests>=2.32,<3
+deep-translator>=1.11.4,<2
+langdetect>=1.0.9,<2
