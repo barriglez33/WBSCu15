@@ -1,0 +1,88 @@
+name: Update WBSC U-15 World Cup RSS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 * * * *"
+
+concurrency:
+  group: wbsc-u15-world-cup-rss
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Verify repository
+        run: |
+          python -m py_compile main.py
+          python - <<'PY'
+          import json
+          with open("config.json", encoding="utf-8") as f:
+              c = json.load(f)
+          b1 = [x for x in c["keywords"] if x["batch"] == 1]
+          b2 = [x for x in c["keywords"] if x["batch"] == 2]
+          print("Keywords:", len(c["keywords"]))
+          print("Batch 1:", len(b1))
+          print("Batch 2:", len(b2))
+          print("Rolling window:", c["settings"]["max_age_hours"], "hours")
+          PY
+
+      - name: Update WBSC U-15 news
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python -u main.py
+
+      - name: Commit generated RSS and data
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "WBSC U-15 News Bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add data docs
+
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+
+          git commit -m "Update WBSC U-15 World Cup"
+
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt $attempt of 5..."
+
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 5 ]; then
+              echo "Push failed after 5 attempts."
+              exit 1
+            fi
+
+            wait_seconds=$((attempt * 20))
+            echo "GitHub push failed. Waiting ${wait_seconds}s before retry..."
+            sleep "$wait_seconds"
+          done
