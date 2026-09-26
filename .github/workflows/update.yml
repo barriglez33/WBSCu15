@@ -41,9 +41,11 @@ jobs:
               c = json.load(f)
           b1 = [x for x in c["keywords"] if x["batch"] == 1]
           b2 = [x for x in c["keywords"] if x["batch"] == 2]
+          b3 = [x for x in c["keywords"] if x["batch"] == 3]
           print("Keywords:", len(c["keywords"]))
           print("Batch 1:", len(b1))
           print("Batch 2:", len(b2))
+          print("Batch 3:", len(b3))
           print("Rolling window:", c["settings"]["max_age_hours"], "hours")
           PY
 
