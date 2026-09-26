@@ -90,8 +90,9 @@ def query_for(item):
     kw = strip_hashtag(item["keyword"])
     quoted = f'"{kw}"'
 
-    if item["category"] == "Players":
-        return f'{quoted} (WBSC OR "U-15" OR U15 OR "Sub-15" OR baseball OR beisbol OR béisbol)'
+    if item["category"] in {"Players", "Mexico Team Staff"}:
+        extra = ' OR México OR Mexico' if item.get("team") == "Mexico U-15" else ''
+        return f'{quoted} (WBSC OR "U-15" OR U15 OR "Sub-15" OR baseball OR beisbol OR béisbol{extra})'
 
     if item["category"] == "Hashtags":
         if norm(kw) in {"baseball", "wbsc"}:
@@ -237,7 +238,7 @@ def contains_keyword(text, item):
 
     # A small amount of tolerance for accents/punctuation/name variants.
     parts = [x for x in re.findall(r"[a-z0-9]+", kw) if len(x) > 1]
-    if item["category"] == "Players":
+    if item["category"] in {"Players", "Mexico Team Staff"}:
         # For a person, require almost the full name.
         return len(parts) >= 2 and all(p in n for p in parts)
 
@@ -256,7 +257,7 @@ def relevant(text, item):
         return False
 
     # Player names and generic hashtags need tournament/baseball context.
-    if item["category"] in {"Players", "Hashtags"}:
+    if item["category"] in {"Players", "Mexico Team Staff", "Hashtags"}:
         return has_event_context(text)
 
     return True
@@ -588,11 +589,19 @@ def save_state(state):
 
 def select_batch():
     state = load_state()
-    batch = 1 if int(state.get("next_batch", 1)) == 1 else 2
+    try:
+        batch = int(state.get("next_batch", 1))
+    except Exception:
+        batch = 1
+
+    if batch not in {1, 2, 3}:
+        batch = 1
+
     selected = [
         item for item in CFG["keywords"]
         if int(item.get("batch", 1)) == batch
     ]
+
     print(f"Batch {batch}: {len(selected)} keywords")
     print(f"Rolling window: last {CFG['settings']['max_age_hours']} hours")
     return selected, batch, state
@@ -714,7 +723,7 @@ def main():
     # Advance batch only after processing + file generation succeeds.
     state["last_completed_batch"] = batch
     state["last_completed_at"] = datetime.now(timezone.utc).isoformat()
-    state["next_batch"] = 2 if batch == 1 else 1
+    state["next_batch"] = 1 if batch == 3 else batch + 1
     save_state(state)
 
     print("Unique stories:", len(articles))

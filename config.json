@@ -251,31 +251,31 @@
       "id": 42,
       "keyword": "Jonatan Montano",
       "category": "Players",
-      "batch": 1
+      "batch": 2
     },
     {
       "id": 43,
       "keyword": "José Carlos Jimenez",
       "category": "Players",
-      "batch": 1
+      "batch": 2
     },
     {
       "id": 44,
       "keyword": "Juan Pablo Rayo",
       "category": "Players",
-      "batch": 1
+      "batch": 2
     },
     {
       "id": 45,
       "keyword": "Larrin Herman",
       "category": "Players",
-      "batch": 1
+      "batch": 2
     },
     {
       "id": 46,
       "keyword": "Nathan Sinclair",
       "category": "Players",
-      "batch": 1
+      "batch": 2
     },
     {
       "id": 47,
@@ -491,65 +491,335 @@
       "id": 82,
       "keyword": "#Yucatán2026",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 83,
       "keyword": "#Mérida",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 84,
       "keyword": "#Cancún",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 85,
       "keyword": "#USABsub15",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 86,
       "keyword": "#MéxicoSub15",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 87,
       "keyword": "#SamuraiJapan",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 88,
       "keyword": "#TeamUSA",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 89,
       "keyword": "#PorTuSelección",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 90,
       "keyword": "#GameTime",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
     },
     {
       "id": 91,
       "keyword": "#Baseball",
       "category": "Hashtags",
-      "batch": 2
+      "batch": 3
+    },
+    {
+      "id": 92,
+      "keyword": "Jazael Figueroa",
+      "category": "Players",
+      "number": "10",
+      "role": "Infield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 93,
+      "keyword": "Alejandro Martínez",
+      "category": "Players",
+      "number": "13",
+      "role": "Outfield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 94,
+      "keyword": "Hector Heurgeaux",
+      "category": "Players",
+      "number": "20",
+      "role": "Outfield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 95,
+      "keyword": "Gustavo Meza",
+      "category": "Players",
+      "number": "4",
+      "role": "Outfield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 96,
+      "keyword": "Roberto Garza",
+      "category": "Players",
+      "number": "23",
+      "role": "Outfield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 97,
+      "keyword": "Paul Huerta",
+      "category": "Players",
+      "number": "31",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 98,
+      "keyword": "Christian Muñoz",
+      "category": "Players",
+      "number": "3",
+      "role": "Catcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 99,
+      "keyword": "Sebastián Armendariz",
+      "category": "Players",
+      "number": "25",
+      "role": "Catcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 100,
+      "keyword": "Hernan Chan",
+      "category": "Players",
+      "number": "18",
+      "role": "Infield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 101,
+      "keyword": "Esteban Gallardo",
+      "category": "Players",
+      "number": "53",
+      "role": "Infield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 102,
+      "keyword": "Rodrigo López",
+      "category": "Players",
+      "number": "13",
+      "role": "Infield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 103,
+      "keyword": "Kalet Rosas",
+      "category": "Players",
+      "number": "24",
+      "role": "Infield",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 104,
+      "keyword": "Alain Zarza",
+      "category": "Players",
+      "number": "19",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 105,
+      "keyword": "Kevin Machorro",
+      "category": "Players",
+      "number": "8",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 106,
+      "keyword": "Jesús Almada",
+      "category": "Players",
+      "number": "99",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 107,
+      "keyword": "José Pacheco",
+      "category": "Players",
+      "number": "34",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 108,
+      "keyword": "José Covarrubias",
+      "category": "Players",
+      "number": "16",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 109,
+      "keyword": "Íker Leyva",
+      "category": "Players",
+      "number": "21",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 110,
+      "keyword": "Joseph Galván",
+      "category": "Players",
+      "number": "0",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 111,
+      "keyword": "Ángel Lara",
+      "category": "Players",
+      "number": "22",
+      "role": "Pitcher",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 112,
+      "keyword": "Luis Juárez",
+      "category": "Mexico Team Staff",
+      "number": "90",
+      "role": "Manager",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 113,
+      "keyword": "Eduardo Martín",
+      "category": "Mexico Team Staff",
+      "number": "39",
+      "role": "Coach",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 114,
+      "keyword": "Santiago Huchim",
+      "category": "Mexico Team Staff",
+      "number": "44",
+      "role": "Coach",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 115,
+      "keyword": "Hector Castañeda",
+      "category": "Mexico Team Staff",
+      "number": "35",
+      "role": "Coach",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 116,
+      "keyword": "Daniel Fernández",
+      "category": "Mexico Team Staff",
+      "number": "11",
+      "role": "Coach",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 117,
+      "keyword": "Javier Cruz",
+      "category": "Mexico Team Staff",
+      "number": "27",
+      "role": "Coach",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 118,
+      "keyword": "Santos Hernández",
+      "category": "Mexico Team Staff",
+      "number": "12",
+      "role": "Coach",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 119,
+      "keyword": "Jesús Zazueta",
+      "category": "Mexico Team Staff",
+      "number": "—",
+      "role": "Bat Boy",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 120,
+      "keyword": "Luis Cevallos",
+      "category": "Mexico Team Staff",
+      "number": "—",
+      "role": "Trainer",
+      "team": "Mexico U-15",
+      "batch": 3
+    },
+    {
+      "id": 121,
+      "keyword": "Ricardo Bravo",
+      "category": "Mexico Team Staff",
+      "number": "—",
+      "role": "Delegado",
+      "team": "Mexico U-15",
+      "batch": 3
     }
   ],
   "settings": {
-    "max_age_hours": 2,
+    "max_age_hours": 3,
     "gdelt_results_per_keyword": 10,
     "google_results_per_edition": 4,
     "minimum_body_characters": 250,
@@ -627,7 +897,7 @@
   ],
   "feed": {
     "title": "WBSC U-15 World Cup 2026 News",
-    "description": "Noticias del WBSC U-15 Baseball World Cup 2026, equipos, sedes, jugadores, resultados y hashtags relacionados.",
+    "description": "Noticias del WBSC U-15 Baseball World Cup 2026, equipos, sedes, jugadores, roster de México, staff, resultados y hashtags relacionados.",
     "site_url": "https://example.github.io/wbsc-u15-world-cup-2026/"
   }
 }
